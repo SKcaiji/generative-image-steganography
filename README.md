@@ -4,7 +4,7 @@
 根据文本和图片构建train.jsonl.（完整的数据集在https://huggingface.co/datasets/shikedpx/multi-class_image可下载）
 
 2.预训练权重
-训练代码中的初始权重为vgg16在imagenet数据集的预训练权重和stable-diffusion-v1-5预训练权重（这两个预训练权重在各自官网均有提供）
+训练代码中的初始权重为vgg16在ImageNet数据集的预训练权重和stable-diffusion-v1-5预训练权重（这两个预训练权重官方均有提供）
 
 3.训练
 根据train.py实现对总体网络的训练。
